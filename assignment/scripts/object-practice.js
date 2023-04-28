@@ -76,3 +76,7 @@ console.log(me.shoeCount);
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+me.favoriteColor = 'Forest Green';
+// adding a new variable to the 'me' object
+console.log(me);
+// testing to see if the new variable was added correctly
