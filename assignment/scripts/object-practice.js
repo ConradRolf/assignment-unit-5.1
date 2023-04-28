@@ -10,8 +10,19 @@ console.log('***** Object Practice *****')
 */
 const me = {
   // TODO - add properties here
+  firstName: 'Conrad',
+  lastName: 'Rolf',
+  hasSiblings: true,
+  shoeCount: 7,
+  favThreeFoods: ['sushi', 'burritos', 'curry'],
+  // Question #2
+  name: function() {
+    return this.firstName + ' ' + this.lastName;
+  }
 };
 console.log('A little about me:', me);
+fullName = me.name();
+console.log(fullName)
 
 /* 2. Accessing object properties.
   - Create a variable called fullName 
@@ -22,10 +33,13 @@ console.log('A little about me:', me);
 
 
 
+
 /* 3. Nested arrays
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
+console.log(me.favThreeFoods[0]);
+console.log(me.favThreeFoods[2]);
 
 
 
